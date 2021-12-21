@@ -60,6 +60,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndV-T2-lP3">
+                                <rect key="frame" x="166" y="433" width="83" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Go to RN"/>
+                                <connections>
+                                    <action selector="goToRN:" destination="Wz8-bt-SBh" eventType="touchUpInside" id="USq-ue-LOH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Fd2-e3-pdf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import React
 
 class SecondScreenViewController: UIViewController {
 
@@ -31,4 +32,28 @@ class SecondScreenViewController: UIViewController {
     }
     */
 
+    @IBAction func goToRN(_ sender: UIButton) {
+        let bridge = RCTBridge.init(delegate: self, launchOptions: nil)!
+        let rootView =  RCTRootView.init(bridge: bridge, moduleName: "RnIos", initialProperties: nil)
+        if #available(iOS 13, *) {
+            rootView.backgroundColor = UIColor.systemBackground
+        } else {
+            rootView.backgroundColor = UIColor.white
+        }
+
+        let vc = UIViewController()
+        vc.view = rootView
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true, completion: nil)
+    }
+}
+
+extension SecondScreenViewController: RCTBridgeDelegate {
+    func sourceURL(for bridge: RCTBridge!) -> URL! {
+#if DEBUG
+        return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
+#else
+        return Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+#endif
+    }
 }
