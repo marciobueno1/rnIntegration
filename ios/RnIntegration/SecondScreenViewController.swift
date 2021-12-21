@@ -1,6 +1,6 @@
 //
 //  SecondScreenViewController.swift
-//  RnIos
+//  RnIntegration
 //
 //  Created by Marcio Bueno on 19/12/21.
 //
@@ -34,7 +34,7 @@ class SecondScreenViewController: UIViewController {
 
     @IBAction func goToRN(_ sender: UIButton) {
         let bridge = RCTBridge.init(delegate: self, launchOptions: nil)!
-        let rootView =  RCTRootView.init(bridge: bridge, moduleName: "RnIos", initialProperties: nil)
+        let rootView =  RCTRootView.init(bridge: bridge, moduleName: "RnIntegration", initialProperties: nil)
         if #available(iOS 13, *) {
             rootView.backgroundColor = UIColor.systemBackground
         } else {

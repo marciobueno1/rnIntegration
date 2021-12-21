@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  RnIos
+//  RnIntegration
 //
 //  Created by Marcio Bueno on 19/12/21.
 //

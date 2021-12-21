@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1028D7FE3AE06B00A718E37A /* libPods-RnIos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0586DD08EFA4B7B07117ECB /* libPods-RnIos.a */; };
+		5FFCA94BEA151D57685802E1 /* libPods-RnIntegration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1EDAB27A4E66F0F2E12D1B /* libPods-RnIntegration.a */; };
 		A8404E25276FD08F0027ABBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8404E24276FD08F0027ABBF /* AppDelegate.swift */; };
 		A8404E27276FD08F0027ABBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8404E26276FD08F0027ABBF /* SceneDelegate.swift */; };
 		A8404E29276FD08F0027ABBF /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8404E28276FD08F0027ABBF /* FirstScreenViewController.swift */; };
@@ -18,9 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		589AE64491C17FCC964D7960 /* Pods-RnIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIos.debug.xcconfig"; path = "Target Support Files/Pods-RnIos/Pods-RnIos.debug.xcconfig"; sourceTree = "<group>"; };
-		98F5050876D4C3C943944217 /* Pods-RnIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIos.release.xcconfig"; path = "Target Support Files/Pods-RnIos/Pods-RnIos.release.xcconfig"; sourceTree = "<group>"; };
-		A8404E21276FD08F0027ABBF /* RnIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RnIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C222EE99BF3E8F93A8FCCBB /* Pods-RnIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIntegration.release.xcconfig"; path = "Target Support Files/Pods-RnIntegration/Pods-RnIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		2C1EDAB27A4E66F0F2E12D1B /* libPods-RnIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnIntegration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		589AE64491C17FCC964D7960 /* Pods-RnIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIntegration.debug.xcconfig"; path = "Target Support Files/Pods-RnIntegration/Pods-RnIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		98F5050876D4C3C943944217 /* Pods-RnIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIntegration.release.xcconfig"; path = "Target Support Files/Pods-RnIntegration/Pods-RnIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		A8404E21276FD08F0027ABBF /* RnIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RnIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8404E24276FD08F0027ABBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8404E26276FD08F0027ABBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8404E28276FD08F0027ABBF /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +31,7 @@
 		A8404E30276FD0930027ABBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8404E32276FD0930027ABBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8404E38276FD1B30027ABBF /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
-		F0586DD08EFA4B7B07117ECB /* libPods-RnIos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RnIos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE24EC05F30B56B3A19F54E /* Pods-RnIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RnIntegration.debug.xcconfig"; path = "Target Support Files/Pods-RnIntegration/Pods-RnIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1028D7FE3AE06B00A718E37A /* libPods-RnIos.a in Frameworks */,
+				5FFCA94BEA151D57685802E1 /* libPods-RnIntegration.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,17 +49,18 @@
 		3A7A447C2CD85B4539471BBE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				589AE64491C17FCC964D7960 /* Pods-RnIos.debug.xcconfig */,
-				98F5050876D4C3C943944217 /* Pods-RnIos.release.xcconfig */,
+				589AE64491C17FCC964D7960 /* Pods-RnIntegration.debug.xcconfig */,
+				98F5050876D4C3C943944217 /* Pods-RnIntegration.release.xcconfig */,
+				ECE24EC05F30B56B3A19F54E /* Pods-RnIntegration.debug.xcconfig */,
+				1C222EE99BF3E8F93A8FCCBB /* Pods-RnIntegration.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		9734E0AD4EE5475286F9BD10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0586DD08EFA4B7B07117ECB /* libPods-RnIos.a */,
+				2C1EDAB27A4E66F0F2E12D1B /* libPods-RnIntegration.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -65,7 +68,7 @@
 		A8404E18276FD08F0027ABBF = {
 			isa = PBXGroup;
 			children = (
-				A8404E23276FD08F0027ABBF /* RnIos */,
+				A8404E23276FD08F0027ABBF /* RnIntegration */,
 				A8404E22276FD08F0027ABBF /* Products */,
 				3A7A447C2CD85B4539471BBE /* Pods */,
 				9734E0AD4EE5475286F9BD10 /* Frameworks */,
@@ -75,12 +78,12 @@
 		A8404E22276FD08F0027ABBF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8404E21276FD08F0027ABBF /* RnIos.app */,
+				A8404E21276FD08F0027ABBF /* RnIntegration.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8404E23276FD08F0027ABBF /* RnIos */ = {
+		A8404E23276FD08F0027ABBF /* RnIntegration */ = {
 			isa = PBXGroup;
 			children = (
 				A8404E24276FD08F0027ABBF /* AppDelegate.swift */,
@@ -92,15 +95,15 @@
 				A8404E2F276FD0930027ABBF /* LaunchScreen.storyboard */,
 				A8404E32276FD0930027ABBF /* Info.plist */,
 			);
-			path = RnIos;
+			path = RnIntegration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A8404E20276FD08F0027ABBF /* RnIos */ = {
+		A8404E20276FD08F0027ABBF /* RnIntegration */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8404E35276FD0930027ABBF /* Build configuration list for PBXNativeTarget "RnIos" */;
+			buildConfigurationList = A8404E35276FD0930027ABBF /* Build configuration list for PBXNativeTarget "RnIntegration" */;
 			buildPhases = (
 				C3C949DDC4A1C068FDF64346 /* [CP] Check Pods Manifest.lock */,
 				A8404E1D276FD08F0027ABBF /* Sources */,
@@ -113,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = RnIos;
-			productName = RnIos;
-			productReference = A8404E21276FD08F0027ABBF /* RnIos.app */;
+			name = RnIntegration;
+			productName = RnIntegration;
+			productReference = A8404E21276FD08F0027ABBF /* RnIntegration.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A8404E1C276FD08F0027ABBF /* Build configuration list for PBXProject "RnIos" */;
+			buildConfigurationList = A8404E1C276FD08F0027ABBF /* Build configuration list for PBXProject "RnIntegration" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A8404E20276FD08F0027ABBF /* RnIos */,
+				A8404E20276FD08F0027ABBF /* RnIntegration */,
 			);
 		};
 /* End PBXProject section */
@@ -171,15 +174,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnIos/Pods-RnIos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnIntegration/Pods-RnIntegration-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnIos/Pods-RnIos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnIntegration/Pods-RnIntegration-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnIos/Pods-RnIos-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnIntegration/Pods-RnIntegration-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BB71A1638EF0E9C7471EF212 /* [CP] Copy Pods Resources */ = {
@@ -188,15 +191,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnIos/Pods-RnIos-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnIntegration/Pods-RnIntegration-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RnIos/Pods-RnIos-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-RnIntegration/Pods-RnIntegration-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnIos/Pods-RnIos-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RnIntegration/Pods-RnIntegration-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C3C949DDC4A1C068FDF64346 /* [CP] Check Pods Manifest.lock */ = {
@@ -214,7 +217,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RnIos-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RnIntegration-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -377,7 +380,7 @@
 		};
 		A8404E36276FD0930027ABBF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 589AE64491C17FCC964D7960 /* Pods-RnIos.debug.xcconfig */;
+			baseConfigurationReference = ECE24EC05F30B56B3A19F54E /* Pods-RnIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -385,7 +388,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZZDPV3P5GL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RnIos/Info.plist;
+				INFOPLIST_FILE = RnIntegration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -396,7 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.org.cesar.RnIos;
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.cesar.RnIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -406,7 +409,7 @@
 		};
 		A8404E37276FD0930027ABBF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98F5050876D4C3C943944217 /* Pods-RnIos.release.xcconfig */;
+			baseConfigurationReference = 1C222EE99BF3E8F93A8FCCBB /* Pods-RnIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -414,7 +417,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZZDPV3P5GL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RnIos/Info.plist;
+				INFOPLIST_FILE = RnIntegration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -425,7 +428,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = br.org.cesar.RnIos;
+				PRODUCT_BUNDLE_IDENTIFIER = br.org.cesar.RnIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -436,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A8404E1C276FD08F0027ABBF /* Build configuration list for PBXProject "RnIos" */ = {
+		A8404E1C276FD08F0027ABBF /* Build configuration list for PBXProject "RnIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8404E33276FD0930027ABBF /* Debug */,
@@ -445,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A8404E35276FD0930027ABBF /* Build configuration list for PBXNativeTarget "RnIos" */ = {
+		A8404E35276FD0930027ABBF /* Build configuration list for PBXNativeTarget "RnIntegration" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A8404E36276FD0930027ABBF /* Debug */,
