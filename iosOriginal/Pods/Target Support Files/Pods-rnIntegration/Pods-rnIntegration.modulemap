@@ -1,0 +1,6 @@
+module Pods_rnIntegration {
+  umbrella header "Pods-rnIntegration-umbrella.h"
+
+  export *
+  module * { export * }
+}
