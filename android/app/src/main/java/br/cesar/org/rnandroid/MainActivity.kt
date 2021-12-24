@@ -2,7 +2,6 @@ package br.cesar.org.rnandroid
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
@@ -10,14 +9,15 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
 import br.cesar.org.rnandroid.databinding.ActivityMainBinding
+import com.facebook.react.ReactActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : ReactActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        super.onCreate(null)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
